@@ -64,15 +64,15 @@ def Forgot():
     import webbrowser
     webbrowser.open('https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fsxsrf%3DAOaemvKhGfwR0KRhUeeqPYRsNVLg0NY6Ug%3A1632399361297%26q%3Dgmail%2Bforgot%2Bpassword%26spell%3D1%26sa%3DX%26ved%3D2ahUKEwiozr7AiZXzAhWZzDgGHT39ADwQBSgAegQIARAw%26biw%3D1366%26bih%3D661%26dpr%3D1&ec=GAlAAQ&flowName=GlifWebSignIn&flowEntry=AddSession')
 
-def speak(text):
-    import pyttsx3
-    engine=pyttsx3.init()
-    voices=engine.getProperty('voices')
-    engine.setProperty('voice',voices[0].id)
-    rate = engine.getProperty('rate')
-    engine.setProperty('rate', rate-70)
-    engine.say(text)
-    engine.runAndWait()  
+# def speak(text):
+#     import pyttsx3
+#     engine=pyttsx3.init()
+#     voices=engine.getProperty('voices')
+#     engine.setProperty('voice',voices[0].id)
+#     rate = engine.getProperty('rate')
+#     engine.setProperty('rate', rate-70)
+#     engine.say(text)
+#     engine.runAndWait()  
 
 
 
